@@ -1,0 +1,39 @@
+.buttonize{
+   border-color:  #3a87ad;
+   border-style: solid;
+}
+.buttonize-sm{
+  border-width: 4px;
+  border-radius: 10px;
+  margin: 0px!important;
+}
+.buttonize-md{
+  border-width: 6px;
+  border-radius: 15px;
+}
+.bitty{
+  height: 40px;
+  padding: 0;
+}
+.card{
+  background-image: url("clear-day.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: #3a87ad solid 10px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+}
+.card h1{
+  color: white;
+  font-size: 60px;
+  font-weight: bolder;
+}
+.card h3{
+  color: white;
+  font-weight: bold;
+}
+.card p{
+  color: white;
+  font-size: 20px;
+}
