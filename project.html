@@ -51,9 +51,9 @@
         </ul>
         <form class="navbar-form navbar-left" id="weather-request">
           <div class="form-group">
-            <input type="text" class="form-control" placeholder="Enter Zip Code or City,State">
+            <input type="text" class="form-control" size = "45" id = "zipcode" placeholder="Enter Zip Code or City,State" autofocus>
           </div>
-          <button type="submit" class="btn btn-default">Get Weather</button>
+          <button type="submit" class="btn btn-default" >Get Weather</button>
         </form>
         <ul class="nav navbar-nav navbar-right">
           <li><a href="https://darksky.net/poweredby">“Powered by Dark Sky”</a></li>
@@ -71,7 +71,7 @@
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
   </nav>
-<!--Need some margin so the navbar doesn't cover up-->
+
   <hr />
   <hr />
     <div id="me"></div>
@@ -81,12 +81,12 @@
 
         <div class = "col-sm-4">
           <div class="well card">
-            <h3 id = "location" class="card-title">Louisa, KY<br />
-            Tuesday, 9/20/16
+            <h3 class="card-title"><span  class = "location">Louisa, KY</span><br />
+            <span id = "today">Tuesday, 9/20/16</span>
             </h3>
-            <h1 id = "currentTemp">70*</h1>
+            <h1><span id = "today-currentTemp">70</span>&#8457;</h1>
             <br />
-            <p id = "weather1" class="card-text">clear</p>
+            <p><span id = "today-summary" class="card-text">clear</span></p>
             <hr />
             <table class = "table">
               <tr>
@@ -95,9 +95,9 @@
                 <td>Chance of Rain</td>
               </tr>
               <tr>
-                <td id="minTemp">67*</td>
-                <td id="maxTemp">77*</td>
-                <td id="chanceRain">10%</td>
+                <td><span id="today-minTemp">67</span>&#8457;</td>
+                <td><span id="today-maxTemp">77</span>&#8457;</td>
+                <td><span id="today-chanceRain">10</span>%</td>
               </tr>
             </table>
             <hr />
